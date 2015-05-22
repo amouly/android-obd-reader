@@ -29,4 +29,9 @@
   <string name="title_pref_commands">OBD Commands</string>
   <string name="title_pref_bluetooth" translatable="false">Bluetooth</string>
   <string name="title_pref_gps" translatable="false">GPS</string>
+  <string name="dialog_bluetooth_unavailable">Sorry, your device doesn\'t support Bluetooth.</string>
+  <string name="dialog_bluetooth_disabled">You have Bluetooth disabled. Please enable it (using Mock service)</string>
+  <string name="dialog_missing_orientation">Orientation sensor missing?</string>
+  <string name="dialog_gps_disabled">Sorry, your device doesn\'t support or has disabled GPS.</string>
+  <string name="dialog_trip_unavailable">Sorry, trip will not be saved.</string>
 </resources>

@@ -479,19 +479,19 @@ public class MainActivity extends RoboActivity implements ObdProgressListener, L
     AlertDialog.Builder build = new AlertDialog.Builder(this);
     switch (id) {
       case NO_BLUETOOTH_ID:
-        build.setMessage("Sorry, your device doesn't support Bluetooth.");
+        build.setMessage(getString(R.string.dialog_bluetooth_unavailable));
         return build.create();
       case BLUETOOTH_DISABLED:
-        build.setMessage("You have Bluetooth disabled. Please enable it (using Mock service)");
+        build.setMessage(getString(R.string.dialog_bluetooth_disabled));
         return build.create();
       case NO_ORIENTATION_SENSOR:
-        build.setMessage("Orientation sensor missing?");
+        build.setMessage(getString(R.string.dialog_missing_orientation));
         return build.create();
       case NO_GPS_SUPPORT:
-        build.setMessage("Sorry, your device doesn't support or has disabled GPS.");
+        build.setMessage(getString(R.string.dialog_gps_disabled));
         return build.create();
       case SAVE_TRIP_NOT_AVAILABLE:
-        build.setMessage("Sorry, trip will not be saved.");
+        build.setMessage(getString(R.string.dialog_trip_unavailable));
         return build.create();
     }
     return null;

@@ -18,4 +18,9 @@
     <string name="menu_stop_live_data">Detener datos en vivo</string>
     <string name="title_pref_commands">Comandos OBD</string>
     <string name="title_pref_obd">Preferencias OBD</string>
+    <string name="dialog_bluetooth_disabled">Usted tiene Bluetooth desactivado. Por favor actívelo.</string>
+    <string name="dialog_bluetooth_unavailable">Disculpas, su dispositivo no soporta Bluetooth.</string>
+    <string name="dialog_gps_disabled">Disculpas, su dispositivo no soporta o tiene deshabilitado GPS.</string>
+    <string name="dialog_missing_orientation">Sensor de movimiento no encontrado.</string>
+    <string name="dialog_trip_unavailable">Disculpas, los Viajes no podrán ser guardados.</string>
 </resources>
