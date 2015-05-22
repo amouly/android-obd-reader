@@ -70,7 +70,7 @@ import static pt.lighthouselabs.obd.reader.activity.ConfigActivity.getGpsUpdateP
 
 // Some code taken from https://github.com/barbeau/gpstest
 
-@ContentView(R.layout.main)
+@ContentView(R.layout.activity_main)
 public class MainActivity extends RoboActivity implements ObdProgressListener, LocationListener, GpsStatus.Listener {
 
   private static boolean bluetoothDefaultIsEnable = false;
