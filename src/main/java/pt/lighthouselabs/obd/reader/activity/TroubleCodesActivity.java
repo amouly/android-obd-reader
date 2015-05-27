@@ -9,10 +9,10 @@ import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.preference.PreferenceManager;
-import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -23,15 +23,15 @@ import com.google.inject.Inject;
 import java.io.IOException;
 import java.util.UUID;
 
+import pt.lighthouselabs.obd.commands.control.TroubleCodesObdCommand;
 import pt.lighthouselabs.obd.commands.protocol.EchoOffObdCommand;
 import pt.lighthouselabs.obd.commands.protocol.LineFeedOffObdCommand;
 import pt.lighthouselabs.obd.commands.protocol.ObdResetCommand;
 import pt.lighthouselabs.obd.commands.protocol.SelectProtocolObdCommand;
-import pt.lighthouselabs.obd.commands.control.TroubleCodesObdCommand;
 import pt.lighthouselabs.obd.enums.ObdProtocols;
-import pt.lighthouselabs.obd.reader.R;
-import pt.lighthouselabs.obd.exceptions.UnableToConnectException;
 import pt.lighthouselabs.obd.exceptions.MisunderstoodCommandException;
+import pt.lighthouselabs.obd.exceptions.UnableToConnectException;
+import pt.lighthouselabs.obd.reader.R;
 
 public class TroubleCodesActivity extends Activity {
 

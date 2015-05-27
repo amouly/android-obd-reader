@@ -1,13 +1,9 @@
 package pt.lighthouselabs.obd.reader.io;
 
-import android.content.SharedPreferences;
 import android.util.Log;
-
-import com.google.inject.Inject;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
-import java.io.StringBufferInputStream;
 
 import pt.lighthouselabs.obd.commands.protocol.EchoOffObdCommand;
 import pt.lighthouselabs.obd.commands.protocol.LineFeedOffObdCommand;

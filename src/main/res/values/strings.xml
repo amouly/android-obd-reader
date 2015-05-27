@@ -34,4 +34,5 @@
   <string name="dialog_missing_orientation">Orientation sensor missing?</string>
   <string name="dialog_gps_disabled">Sorry, your device doesn\'t support or has disabled GPS.</string>
   <string name="dialog_trip_unavailable">Sorry, trip will not be saved.</string>
+  <string name="error_bluetooth_unavailable">This device does not support Bluetooth.</string>
 </resources>
